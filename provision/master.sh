@@ -19,7 +19,7 @@ class { 'r10k':
   version           => '2.1.1',
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/cvquesty/control_repo.git',
+      'remote'  => 'https://github.com/grahamswilson/control_repo.git',
       'basedir' => "${::settings::codedir}/environments",
       'prefix'  => false,
     }
